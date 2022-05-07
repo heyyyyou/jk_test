@@ -1,9 +1,3 @@
-# from pydocx import PyDocX
-# html = PyDocX.to_html("可能产生数据为0的脚本描述.docx")
-# f = open("可能产生数据为0的脚本描述.html", 'w', encoding="utf-8")
-# f.write(html)
-# f.close()
-
 class FooParent(object):
     def __init__(self):
         self.parent = 'I\'m the parent.'
